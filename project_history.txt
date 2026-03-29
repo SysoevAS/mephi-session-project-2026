@@ -1,1 +1,46 @@
     1  history > ~/project_history.txt
+    2  ping -c 4 192.168.1.1 > ~/network_check.txt
+    3  ping -c 4 8.8.8.8 >> ~/network_check.txt
+    4  journalctl -u nginx --since "5 minute ago" > ~/nginx_recent_logs.txt
+    5  cp /etc/fstab ~/fstab.txt
+    6  getenforce > ~/selinux_status.txt
+    7  ls -Zd /data/mephi-web > ~/file_contexts.txt
+    8  getcap /usr/sbin/tcpdump > ~/permissions.txt
+    9  getcap /usr/sbin/tcpdump > ~/tcpdump_capabilities.txt
+   10  stat /data/mephi-web > ~/permissions.txt
+   11  id mephi-admin > ~/users_groups.txt
+   12  getent group mephi-devs >> ~/user_group.txt
+   13  curl -s http:192.168.1.100 > ~/curl_output.txt
+   14  cp /data/mephi-web/index.html ~/index.html
+   15  cp /tmp/tcpdump*.rpm ~/
+   16  cd /tmp
+   17  dnf downloaad tcpdump
+   18  dnf download tcpdump
+   19  cp /tmp/tcpdump*.rpm ~/
+   20  ls~ | grep tcpdump
+   21  ls ~ | grep tcpdump
+   22  curl http://192.168.1.100
+   23  git config --global user.name "SysoevAS"
+   24  git config --global user.email "invetys@gmail.com"
+   25  cd ~
+   26  mkdir mephi-session-project-2026
+   27  cp project_history.txt network_check.txt nginx_recet_logs.txt fstab.txt selinux_status.txt file_contexts.txt tcpdump_capabilities.txt permissions.txt users_groups.txt index.html curl_output.txt tcpdump*.rpm mephi-session-project-2026/ 2>/dev/null
+   28  cd mephi-session-project-2026
+   29  git init
+   30  git add .
+   31  git commit -m "Add MEPHI session project 2026 files"
+   32  git branch -M main
+   33  git remote add origin https://github.com/SysoevAS/mephi-session-project-2026.git
+   34  git push -u origin main
+   35  curl -s http://192.168.1.100 > ~curl_output.txt
+   36  cat ~/curl_output.txt
+   37  curl http://192.168.1.100
+   38  curl -s http://192.168.1.100 > ~/curl_output.txt
+   39  cat ~/curl_output.txt
+   40  cd ~/mephi-session-project-2026
+   41  cp ~/curl_output.txt .
+   42  git add curl_output.txt
+   43  git commit -m "fix curl_output"
+   44  pit push
+   45  git push
+   46  history > ~/project_history.txt
